@@ -8,7 +8,7 @@ from art import  *
 def try_me():
   
     # String to be displayed when the application is loading
-    load_str = "starting your console application..."
+    load_str = "============ Hello lewagon Family ============="
     ls_len = len(load_str)
   
   
