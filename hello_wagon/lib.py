@@ -80,6 +80,6 @@ if __name__ == '__main__':
   
     # Your desired code continues from here 
     s = input("Enter your name: ")
-    sys.stdout.write("Hello "+str(s)+"\n")
-    Art=text2art(s) # Return ASCII text (default font) and default chr_ignore=True
+#    sys.stdout.write("Hello "+str(s)+"\n")
+    Art=text2art("Hello  "+s) # Return ASCII text (default font) and default chr_ignore=True
     print(Art)
